@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Syncronizing the database to our local copy of it
-local_folder="/home/juan/Desktop/database_migration/caco_run_information"
+local_folder="/home/juan/projects/CaCo_TCU_databases_sync/caco_run_information"
 printf "Syncronizing the CaCo runs information to: "
 rsync lst101:/var/log/lst-camera/Caco/run_information/* $local_folder
 
